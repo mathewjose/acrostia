@@ -1,4 +1,4 @@
-# acrostia
+# Acrostia
 
 # Plugins Used
 
