@@ -1,0 +1,48 @@
+$primary-color: #74c7d5;
+$secondary-color: #df5c64;
+$tertiary-color: #a1ca6c;
+$yellow: #f5c149;
+$contact-bg: #75b4aa;
+$about-bg: #665464;
+$service-bg: #b24a50;
+$white: #ffffff;
+$work-bg: #81a256;
+$grey: #585d5e;
+
+.primary-button{
+    background: $secondary-color;
+    padding: 5px 15px;
+    min-width: 250px;
+    font-size: 26px;
+    font-weight: 800;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: $white;
+    border: 0;
+    border-bottom: solid 4px $service-bg;
+    border-radius: 4px;
+    outline: none;
+    transition: all 0.5s ease-in-out;
+    box-shadow: none;
+
+    &:hover{
+        background: #c8535a;
+    }
+    &:focus{
+        outline: none;
+        background: #c8535a;
+    }
+}
+
+.m-t-100{
+    margin-top: 100px;
+}
+.m-t-60{
+    margin-top: 60px;
+}
+.m-t-20{
+    margin-top: 20px;
+}
+.m-b-30{
+    margin-bottom: 30px;
+}
